@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -20,11 +22,6 @@ def create_ebay_link(a):
     link = a.replace(' ', '+')
     ebay_link = 'https://www.ebay.co.uk/sch/i.html?_from=R40&_nkw=' + link + '&_sacat=0&rt=nc&LH_Sold=1&LH_Complete=1'
     return ebay_link
-
-
-
-
-
 
 
 
